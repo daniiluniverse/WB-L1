@@ -1,3 +1,7 @@
+// Задача
+// Реализовать несколько способов остановки thread’ов и tokio task’ов: закрытие канала, tokio_util::CancellationToken
+
+
 use std::sync::mpsc;
 use std::thread;
 
